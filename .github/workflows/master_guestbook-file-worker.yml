@@ -38,6 +38,6 @@ jobs:
         with:
           app-name: 'guestbook-file-worker'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_133861430D9C494DB81C1BFCFA5046B8 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_830B5ACA8AD149D696EB6F4275D1D5EC }}
           package: '${{ env.PACKAGE_DIRECTORY }}'
           respect-pom-xml: true
