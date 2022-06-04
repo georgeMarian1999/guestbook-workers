@@ -14,7 +14,7 @@
         <java.version>11</java.version>
         <azure.functions.maven.plugin.version>1.16.0</azure.functions.maven.plugin.version>
         <azure.functions.java.library.version>1.4.2</azure.functions.java.library.version>
-        <functionAppName>guestbook-workers-1654358959546</functionAppName>
+        <functionAppName>guestbook-file-worker</functionAppName>
     </properties>
 
     <dependencies>
@@ -76,7 +76,7 @@
                     <runtime>
                         <!-- runtime os, could be windows, linux or docker-->
                         <os>windows</os>
-                        <javaVersion>8</javaVersion>
+                        <javaVersion>11</javaVersion>
                         <!-- for docker function, please set the following parameters -->
                         <!-- <image>[hub-user/]repo-name[:tag]</image> -->
                         <!-- <serverId></serverId> -->
